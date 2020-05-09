@@ -89,11 +89,29 @@
     flex-direction: column;
     justify-content: space-between
 }
-
-
-
+.slider-ortala{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.h-500{
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+.carousel-caption h3{
+    color: #fff;
+}
+.btn-outline-light{
+    border-radius: 2rem !important;
+}
 @media only screen and (max-width: 768px) {
     .img-about{
         border-right: none;
+    }
+    .mirasimiz-img{
+        height: 250px !important;
     }
   }
